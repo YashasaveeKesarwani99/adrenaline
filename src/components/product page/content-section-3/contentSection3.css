@@ -30,3 +30,11 @@
 	line-height: 130%;
 	color: #ffffff;
 }
+
+.content-section-3-heading > div:nth-child(2) {
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: var(--font-size-big);
+	line-height: 130%;
+	color: #ffffff;
+}
