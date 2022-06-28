@@ -1,0 +1,218 @@
+/** @format */
+
+.header-container {
+	height: 80vh;
+	background-color: var(--base-background-color-red);
+}
+
+.header-sub-container {
+	width: 85%;
+	margin: auto;
+}
+
+.header-nav-bar {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	height: auto;
+	padding-top: 1rem;
+
+	font-family: var(--base-font-family);
+	font-weight: 600;
+	font-size: var(--font-size-tiny);
+	line-height: 16px;
+	/* identical to box height, or 114% */
+
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+
+	/* White/Dark White */
+
+	color: #ffffff;
+}
+
+.header-nav-bar-logo > img {
+	width: 150px;
+	height: auto;
+}
+
+.header-nav-bar-logo-content > div > div > img {
+	width: 60px;
+	height: auto;
+}
+
+.header-nav-bar-logo-content {
+	width: 50%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav-bar-logo-content > div {
+	padding: 10px 10px;
+}
+
+.header-nav-bar-logo-content > div:nth-child(1) {
+	width: 35%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header-nav-bar-logo-content > div:nth-child(4) {
+	border: 1px solid var(--base-font-color-white);
+	border-radius: 4px;
+}
+
+.header-content {
+	width: 100%;
+	height: 60vh;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-direction: row;
+}
+
+.header-content-left {
+	width: 65%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+}
+
+.header-content-left > div:nth-child(1) {
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 5px;
+	width: 10vw;
+	border: 0.5px solid var(--base-background-color-red);
+	background-color: #c20030;
+	border-radius: 4px;
+	text-align: center;
+}
+
+.header-content-left > div:nth-child(2) {
+	font-family: var(--base-font-family);
+	font-weight: 100;
+	font-size: 45px;
+	line-height: 53px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.header-content-left > div:nth-child(3) {
+	font-family: var(--base-font-family);
+	font-weight: 700;
+	font-size: var(--font-size-bigger);
+	line-height: 52px;
+	letter-spacing: 0.02em;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.header-content-left > div:nth-child(4) {
+	font-family: var(--base-font-family);
+	font-style: normal;
+	font-weight: 400;
+	font-size: var(--font-size-normal);
+	line-height: 150%;
+	color: #ffffff;
+}
+
+.header-content-left > div:nth-child(5) {
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.header-content-left-buttons > div:nth-child(1) {
+	width: 40%;
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 5px;
+	width: 10vw;
+	border: 0.5px solid var(--base-background-color-blue);
+	background-color: var(--base-background-color-blue);
+	border-radius: 8px;
+	text-align: center;
+	flex-grow: 1;
+}
+
+.header-content-left-buttons > div:nth-child(2) {
+	width: 60%;
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: 13px;
+	line-height: 15px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color: #ffffff;
+	padding: 10px 5px;
+	margin-left: 20px;
+	width: 10vw;
+	border: 0.5px solid #ffffff;
+	border-radius: 8px;
+	text-align: center;
+	flex-grow: 2;
+}
+
+.header-content-right {
+	width: 35%;
+}
+
+.header-content-right > img {
+	width: 110%;
+	height: auto;
+}
+
+@media screen and (max-width: 1150px) {
+	.header-nav-bar-logo-content {
+		width: 70%;
+	}
+
+	.header-content-left > div:nth-child(1) {
+		font-size: 11px;
+	}
+	.header-content-left > div:nth-child(2) {
+		font-size: 35px;
+	}
+	.header-content-left > div:nth-child(3) {
+		font-size: 43px;
+	}
+	.header-content-left > div:nth-child(4) {
+		font-size: 11px;
+	}
+}
+
+@media screen and (max-width: 999px) {
+	.header-nav-bar-logo-content > div {
+		font-size: 12px;
+		justify-content: space-evenly;
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.header-nav-bar-logo-content > div:nth-child(1) {
+		width: 40%;
+	}
+}

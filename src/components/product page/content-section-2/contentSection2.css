@@ -1,0 +1,135 @@
+/** @format */
+
+.content-section-2-container {
+	height: 150vh;
+	width: 100%;
+	background: url("../../../assets/images/background\ image\ 1.svg") no-repeat;
+	background-size: cover;
+}
+
+.content-section-2-sub-container {
+	width: 85%;
+	margin: auto;
+}
+
+.content-section-2-heading-container {
+	width: 85%;
+	margin: auto;
+}
+
+.content-section-2-heading-container > div:nth-child(1) {
+	padding-top: 7vh;
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: var(--font-size-big);
+	line-height: 130%;
+	color: var(--base-font-color-black);
+}
+
+.content-section-2-heading-container > div:nth-child(2) {
+	padding-top: 3vh;
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-mid);
+	line-height: 130%;
+	color: var(--base-font-color-black);
+}
+
+.content-section-2-content {
+	width: 100%;
+	position: relative;
+}
+
+.content-section-2-content > div:nth-child(1) {
+	width: 38vw;
+	background-color: var(--base-background-color-red);
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-mid);
+	line-height: 130%;
+	position: absolute;
+	color: #ffffff;
+	padding: 20px;
+
+	box-shadow: 0px 4px 4px rgba(195, 195, 195, 0.25);
+	border-radius: 6px;
+
+	left: 100px;
+	top: 50px;
+}
+
+.content-section-2-content > div:nth-child(2) {
+	position: absolute;
+	right: 0px;
+	top: 150px;
+	opacity: 0.5;
+}
+
+.content-section-2-content-animate-image-1 {
+	animation: fadeUp1 0.5s ease-in;
+}
+
+@keyframes fadeUp1 {
+	from {
+		top: 150px;
+	}
+	to {
+		top: 100px;
+	}
+
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.content-section-2-content > div:nth-child(3) {
+	position: absolute;
+	left: 30px;
+	top: 65vh;
+	opacity: 0.5;
+}
+
+.content-section-2-content-animate-image-2 {
+	animation: fadeUp2 0.5s ease-in;
+}
+
+@keyframes fadeUp2 {
+	from {
+		top: 65vh;
+	}
+	to {
+		top: 60vh;
+	}
+
+	from {
+		opacity: 0.5;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+.content-section-2-content > div:nth-child(3) img {
+	width: 90%;
+}
+
+.content-section-2-content > div:nth-child(4) {
+	width: 38vw;
+	background-color: var(--base-background-color-red);
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-mid);
+	line-height: 130%;
+	position: absolute;
+	color: #ffffff;
+	padding: 20px;
+
+	box-shadow: 0px 4px 4px rgba(195, 195, 195, 0.25);
+	border-radius: 6px;
+
+	right: 0;
+	top: 90vh;
+}

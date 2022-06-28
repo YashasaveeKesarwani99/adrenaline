@@ -1,0 +1,32 @@
+/** @format */
+
+.content-section-3-container {
+	background: url("../../../assets/images/background\ image\ 2.svg") no-repeat;
+	background-size: cover;
+	height: 200vh;
+	width: 100%;
+}
+
+.content-section-3-sub-container {
+	width: 85%;
+	margin: auto;
+}
+
+.content-section-3-heading {
+	padding-top: 7vh;
+	width: 85%;
+	margin: auto;
+	text-align: center;
+	height: 30vh;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+
+.content-section-3-heading > div:nth-child(1) {
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-mid);
+	line-height: 130%;
+	color: #ffffff;
+}

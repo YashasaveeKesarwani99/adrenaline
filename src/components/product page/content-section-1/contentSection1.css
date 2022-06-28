@@ -1,0 +1,33 @@
+/** @format */
+
+.content-section-1-container {
+	height: 50vh;
+}
+
+.content-section-1-sub-container {
+	height: 100%;
+	width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	flex-direction: column;
+}
+
+.content-section-1-sub-container > div:nth-child(1) {
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: var(--font-size-big);
+	line-height: 130%;
+	color: #2a3c98;
+}
+
+.content-section-1-sub-container > div:nth-child(2),
+.content-section-1-sub-container > div:nth-child(3) {
+	width: 80%;
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-small);
+	line-height: 140%;
+}

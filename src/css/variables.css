@@ -1,0 +1,74 @@
+/**
+ * *****************
+ * 
+ *        variables 
+ * 
+ * ********************
+ *
+ * @format
+ */
+
+/* 1. color - basic colors that are to be used inside pages 
+ 
+*
+
+   2. font - fonts that are to used.
+
+*
+
+   3. margin - common margins that are to applied
+   
+*
+
+   4. padding - comming paddings that are to applied
+   
+*
+
+
+*/
+
+:root {
+	/* FONT */
+
+	/* font-family */
+
+	--base-font-family: "Roboto";
+
+	/* font-weight */
+
+	--font-weight-thin: 400;
+
+	--font-weight-bold: 700;
+
+	/* font-size */
+
+	--font-size-tiny: 14px;
+
+	--font-size-small: 16px;
+
+	--font-size-mid: 18px;
+
+	--font-size-normal: 20px;
+
+	--font-size-big: 24px;
+
+	--font-size-bigger: 44px;
+
+	/* COLOR */
+
+	--base-font-color-white: #ffffff;
+
+	--base-font-color-black: #040404;
+
+	--base-background-color-red: #c20018;
+
+	--base-background-color-blue: #2a3c98;
+
+	--base-background-color-pink: #ec4c4c;
+
+	/* PADDING */
+
+	--small-vertical-padding: 8px;
+
+	--small-horizontal-padding: 4px;
+}
