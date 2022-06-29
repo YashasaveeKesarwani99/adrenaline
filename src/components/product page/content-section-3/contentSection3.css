@@ -13,7 +13,7 @@
 }
 
 .content-section-3-heading {
-	padding-top: 7vh;
+	padding-top: 4vh;
 	width: 85%;
 	margin: auto;
 	text-align: center;
@@ -37,4 +37,62 @@
 	font-size: var(--font-size-big);
 	line-height: 130%;
 	color: #ffffff;
+}
+
+.content-section-3-sub-content-1 {
+	width: 100%;
+	height: 110vh;
+	position: relative;
+}
+
+.content-section-3-sub-content-1 > div:not(:nth-child(5)) {
+	width: 250px;
+	height: auto;
+}
+
+.content-section-3-sub-content-1 > div:not(:nth-child(5)) > div:nth-child(1) {
+	font-family: var(--base-font-family);
+	font-weight: var(--font-weight-bold);
+	font-size: 50px;
+	line-height: 23px;
+	color: #ffffff;
+	opacity: 0.3;
+}
+
+.content-section-3-sub-content-1 > div:not(:nth-child(5)) > div:nth-child(2) {
+	font-family: var(--base-font-family);
+	font-weight: 400;
+	font-size: var(--font-size-mid);
+	line-height: 130%;
+	color: #ffffff;
+	padding-top: 10px;
+}
+
+.content-section-3-sub-content-1 > div:nth-child(1) {
+	position: absolute;
+	left: 5%;
+	top: 12%;
+}
+
+.content-section-3-sub-content-1 > div:nth-child(2) {
+	position: absolute;
+	right: 3%;
+	top: 24%;
+}
+
+.content-section-3-sub-content-1 > div:nth-child(3) {
+	position: absolute;
+	left: 5%;
+	top: 60%;
+}
+
+.content-section-3-sub-content-1 > div:nth-child(4) {
+	position: absolute;
+	right: 3%;
+	top: 60%;
+}
+
+.content-section-3-sub-content-1 > div:nth-child(5) {
+	position: absolute;
+	transform: translate(60%, 30%);
 }
