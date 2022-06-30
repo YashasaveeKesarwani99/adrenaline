@@ -1,18 +1,63 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import adrenaline from "../../../assets/icons/adrenailn.png";
 import max from "../../../assets/icons/max.png";
 import banner from "../../../assets/images/banner.png";
 import "./header.css";
+import menuImage from "../../../assets/icons/menu.png";
+import menuClose from "../../../assets/icons/menuClose.png";
 
 const Header = () => {
+	var menu = null;
+	var menuItems = null;
+	var hamburger = null;
+	var closeIcon = null;
+	var menuIcon = null;
+
+	function toggleMenu() {
+		if (menu.classList.contains("showMenu")) {
+			menu.classList.remove("showMenu");
+			closeIcon.style.display = "none";
+			menuIcon.style.display = "block";
+		} else {
+			menu.classList.add("showMenu");
+			closeIcon.style.display = "block";
+			menuIcon.style.display = "none";
+		}
+	}
+
+	React.useEffect(() => {
+		if (hamburger) hamburger.addEventListener("click", toggleMenu);
+
+		menu = document.querySelector(".menu");
+		menuItems = document.querySelectorAll(".menuItem");
+		hamburger = document.querySelector(".hamburger");
+		closeIcon = document.querySelector(".closeIcon");
+		menuIcon = document.querySelector(".menuIcon");
+	}, []);
+
 	return (
 		<div className='header-container'>
 			<div className='header-sub-container'>
 				<div className='header-nav-bar'>
 					<div className='header-nav-bar-logo'>
 						<img src={adrenaline} alt='adrenaline-logo' />
+					</div>
+					<div className='header-burger-menu'>
+						<ul class='menu'>
+							<li className='menuItem'>HR TECH PLATFORM</li>
+							<li className='menuItem'>COMPANY</li>
+							<li className='menuItem'>SUPPORT</li>
+							<li className='menuItem'>TALK TO EXPERT</li>
+						</ul>
+						<div className='hamburger'>
+							<img src={menuImage} />
+
+							<i className='closeIcon'>
+								<img src={menuClose} />
+							</i>
+						</div>
 					</div>
 					<div className='header-nav-bar-logo-content'>
 						<div>
@@ -23,13 +68,12 @@ const Header = () => {
 						</div>
 						<div>Company</div>
 						<div>Support</div>
-						<div>Talk to Sales</div>
+						<div>Talk to Expert</div>
 					</div>
 				</div>
 				<div className='header-content'>
 					<div className='header-content-left'>
 						<div>MAX RECRUIT</div>
-						<div>Max Recruit:</div>
 						<div>
 							Hire the best talent to create
 							<br /> a great place to work
@@ -42,7 +86,6 @@ const Header = () => {
 						</div>
 						<div className='header-content-left-buttons'>
 							<div>Book a Demo</div>
-							<div>TALK TO AN EXPERT</div>
 						</div>
 					</div>
 					<div className='header-content-right'>
