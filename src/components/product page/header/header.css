@@ -232,6 +232,70 @@
 	.header-nav-bar-logo-content > div:nth-child(1) {
 		width: 40%;
 	}
+
+	.header-content {
+		flex-direction: column;
+		height: 105vh;
+	}
+
+	.header-content-left {
+		width: 100%;
+	}
+
+	.header-container {
+		height: 120vh;
+	}
+
+	.header-content-left > div:nth-child(1) {
+		font-size: 11px;
+	}
+	.header-content-left > div:nth-child(2) {
+		font-size: 37px;
+		line-height: 110%;
+	}
+	.header-content-left > div:nth-child(3) {
+		font-size: 19px;
+	}
+	.header-content-left > div:nth-child(4) {
+		font-size: 11px;
+	}
+	.header-content-right {
+		width: 45%;
+	}
+	.header-content-left-buttons > div:nth-child(1) {
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 699px) {
+	.header-content-right {
+		width: 60%;
+	}
+
+	.header-content {
+		justify-content: space-evenly;
+		align-content: center;
+	}
+
+	.header-content-left > div:nth-child(1) {
+		font-size: 8px;
+	}
+	.header-content-left > div:nth-child(2) {
+		font-size: 32px;
+		line-height: 105%;
+	}
+	.header-content-left > div:nth-child(3) {
+		font-size: 16px;
+	}
+	.header-content-left > div:nth-child(4) {
+		font-size: 8px;
+	}
+}
+
+@media screen and (max-width: 499px) {
+	.header-content-right {
+		width: 85%;
+	}
 }
 
 .header-burger-menu {
