@@ -71,7 +71,7 @@ const NavSection = () => {
 
 							<div className='nav-section-logo-content-border'></div>
 						</div>
-						<div className='secondary-header-nav-right'>REQUEST DEMO</div>
+						<div className='secondary-header-nav-right'>DEMO REQUEST</div>
 					</div>
 				</div>
 			</div>

@@ -1,7 +1,11 @@
 /** @format */
 
 .content-section-1-container {
-	height: 50vh;
+	height: 45vh;
+	background: url("../../../assets/images/content-section-1-background.png")
+		no-repeat;
+	background-size: cover;
+	width: 100%;
 }
 
 .content-section-1-sub-container {
@@ -30,4 +34,26 @@
 	font-weight: 400;
 	font-size: var(--font-size-small);
 	line-height: 140%;
+}
+
+@media screen and (max-width: 599px) {
+	.content-section-1-sub-container > div:nth-child(1) {
+		font-size: 16px;
+	}
+
+	.content-section-1-sub-container > div:nth-child(2),
+	.content-section-1-sub-container > div:nth-child(3) {
+		font-size: 14px;
+	}
+}
+
+@media screen and (max-width: 420px) {
+	.content-section-1-sub-container > div:nth-child(1) {
+		font-size: 14px;
+	}
+
+	.content-section-1-sub-container > div:nth-child(2),
+	.content-section-1-sub-container > div:nth-child(3) {
+		font-size: 12px;
+	}
 }

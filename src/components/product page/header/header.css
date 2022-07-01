@@ -281,11 +281,11 @@
 		font-size: 8px;
 	}
 	.header-content-left > div:nth-child(2) {
-		font-size: 32px;
+		font-size: 28px;
 		line-height: 105%;
 	}
 	.header-content-left > div:nth-child(3) {
-		font-size: 16px;
+		font-size: 17px;
 	}
 	.header-content-left > div:nth-child(4) {
 		font-size: 8px;
@@ -295,6 +295,14 @@
 @media screen and (max-width: 499px) {
 	.header-content-right {
 		width: 85%;
+	}
+
+	.header-content-left > div:nth-child(1) {
+		width: 23vw;
+	}
+
+	.header-content-left-buttons > div:nth-child(1) {
+		width: 24vw;
 	}
 }
 
