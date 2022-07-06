@@ -1,0 +1,15 @@
+/** @format */
+
+.content-section-4-container {
+	background: url("../../../assets/images/content-section-4-backgroundAndContent.png")
+		no-repeat;
+	background-size: contain;
+	height: 350vh;
+	width: 100%;
+}
+
+.content-section-4-sub-container {
+	width: 85%;
+	margin: auto;
+	position: relative;
+}

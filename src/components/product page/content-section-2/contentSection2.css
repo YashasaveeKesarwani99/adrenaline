@@ -1,10 +1,11 @@
 /** @format */
 
 .content-section-2-container {
-	height: 150vh;
+	height: 140vh;
 	width: 100%;
-	background: url("../../../assets/images/background\ image\ 1.svg") no-repeat;
-	background-size: cover;
+	background: url("../../../assets/images/content-section-2-backgroundAndContent.png")
+		no-repeat;
+	background-size: contain;
 }
 
 .content-section-2-sub-container {

@@ -6,6 +6,7 @@ import ContentSection2 from "../components/product page/content-section-2/conten
 import Header from "../components/product page/header/header";
 import SecondaryHeader from "../components/product page/secondary-header/secondaryHeader";
 import ContentSection3 from "../components/product page/content-section-3/contentSection3";
+import ContentSection4 from "../components/product page/content-section-4/contentSection4";
 
 const Product = () => {
 	return (
@@ -15,6 +16,7 @@ const Product = () => {
 			<SecondaryHeader />
 			<ContentSection2 />
 			<ContentSection3 />
+			<ContentSection4 />
 		</div>
 	);
 };

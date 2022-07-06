@@ -1,9 +1,10 @@
 /** @format */
 
 .content-section-3-container {
-	background: url("../../../assets/images/background\ image\ 2.svg") no-repeat;
+	background: url("../../../assets/images/content-section-3-backgroundAndContent.png")
+		no-repeat;
 	background-size: cover;
-	height: 390vh;
+	height: 340vh;
 	width: 100%;
 }
 
@@ -162,8 +163,10 @@
 }
 
 .content-section-3-sub-content-4 {
-	width: 100%;
+	padding-top: 30px;
 	display: flex;
+	width: 90%;
+	margin: auto;
 	flex-direction: row;
 	justify-content: space-between;
 	align-items: center;
@@ -195,7 +198,7 @@
 }
 
 .content-section-3-sub-content-text-container {
-	padding-top: 30px;
+	padding-top: 25px;
 }
 
 .content-section-3-sub-content-text-container > div:nth-child(1) {

@@ -11,7 +11,7 @@ const contentSection3 = () => {
 	return (
 		<div className='content-section-3-container'>
 			<div className='content-section-3-sub-container'>
-				<div className='content-section-3-heading'>
+				{/* <div className='content-section-3-heading'>
 					<div>
 						Establish powerful personalised branding with a hyper-personalised
 						career page to offer a glimpse into the organisation for the
@@ -131,7 +131,7 @@ const contentSection3 = () => {
 					<div>
 						<img src={consultantPortal} alt='consultant-portal' />
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);

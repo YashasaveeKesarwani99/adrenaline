@@ -4,6 +4,7 @@ import React from "react";
 import "./contentSection2.css";
 import openings from "../../../assets/images/content section 2 image 1.svg";
 import requests from "../../../assets/images/content section 2 image 2.svg";
+import content from "../../../assets/images/content-section-2-backgroundAndContent.png";
 
 const ContentSection2 = () => {
 	const imageOneRef = React.useRef();
@@ -32,7 +33,7 @@ const ContentSection2 = () => {
 	return (
 		<div className='content-section-2-container'>
 			<div className='content-section-2-sub-container'>
-				<div className='content-section-2-heading-container'>
+				{/* <div className='content-section-2-heading-container'>
 					<div>Max Job Board Management</div>
 					<div>
 						Plan your recruitment requirements and facilitate tracking of
@@ -65,7 +66,7 @@ const ContentSection2 = () => {
 						<br />
 						Track individual skills and map them to the right role.
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</div>
 	);
