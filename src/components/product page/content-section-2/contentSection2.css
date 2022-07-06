@@ -5,7 +5,7 @@
 	width: 100%;
 	background: url("../../../assets/images/content-section-2-backgroundAndContent.png")
 		no-repeat;
-	background-size: contain;
+	background-size: 100vw 140vh;
 }
 
 .content-section-2-sub-container {

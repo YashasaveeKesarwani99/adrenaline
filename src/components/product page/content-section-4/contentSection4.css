@@ -3,7 +3,7 @@
 .content-section-4-container {
 	background: url("../../../assets/images/content-section-4-backgroundAndContent.png")
 		no-repeat;
-	background-size: contain;
+	background-size: 100vw 342vh;
 	height: 342vh;
 	width: 100%;
 }
