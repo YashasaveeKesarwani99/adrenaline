@@ -1,7 +1,7 @@
 /** @format */
 
 .content-section-5-container {
-	height: 110vh;
+	height: 120vh;
 	background-color: #ff5959;
 	width: 100%;
 	position: relative;
@@ -26,7 +26,7 @@
 	width: 25%;
 	position: absolute;
 	right: 100px;
-	top: 25vh;
+	top: 15vh;
 }
 
 .content-section-5-content-1-number {
@@ -38,4 +38,43 @@
 	color: #ffffff;
 	opacity: 0.3;
 	padding-bottom: 10px;
+}
+
+.content-section-5-sub-content-2 {
+	width: 80%;
+	text-align: center;
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+	text-align: center;
+	color: #ffffff;
+	position: absolute;
+	top: 82vh;
+	left: 10vw;
+}
+
+.content-section-5-sub-content-3 {
+	position: absolute;
+	top: 110vh;
+	right: 100px;
+	text-align: right;
+}
+
+.content-section-5-sub-content-3 > div:nth-child(1) {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 9px;
+	line-height: 11px;
+	text-align: right;
+
+	color: #ffffff;
+}
+
+.content-section-5-sub-content-3 > div:nth-child(2) {
+	color: #004fab;
+	font-size: 9px;
+	line-height: 11px;
 }

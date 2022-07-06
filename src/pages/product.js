@@ -8,6 +8,8 @@ import SecondaryHeader from "../components/product page/secondary-header/seconda
 import ContentSection3 from "../components/product page/content-section-3/contentSection3";
 import ContentSection4 from "../components/product page/content-section-4/contentSection4";
 import ContentSection5 from "../components/product page/content-section-5/contentSection5";
+import ContentSection6 from "../components/product page/content-section-6/contentSection6";
+import Footer from "../components/product page/footer/footer";
 
 const Product = () => {
 	return (
@@ -19,6 +21,8 @@ const Product = () => {
 			<ContentSection3 />
 			<ContentSection4 />
 			<ContentSection5 />
+			<ContentSection6 />
+			<Footer />
 		</div>
 	);
 };

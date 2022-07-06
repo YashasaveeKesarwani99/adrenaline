@@ -1,0 +1,21 @@
+/** @format */
+
+.footer-container {
+	height: 90vh;
+	background-color: #000000;
+	position: relative;
+	overflow: hidden;
+}
+
+.footer-container::after {
+	content: "";
+	z-index: 1;
+	width: 180vw;
+	height: 70vw;
+	position: absolute;
+	top: -5vh;
+	border-radius: 100%;
+	background-color: #ed1a34;
+	transform: scale(1.4) translate(-30%, -75%);
+	transform-origin: -20% 30%;
+}

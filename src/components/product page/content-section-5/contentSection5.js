@@ -48,7 +48,21 @@ const ContentSection5 = () => {
 						</div>
 					</div>
 				</div>
-				<div className='content-section-5-sub-content-2'></div>
+				<div className='content-section-5-sub-content-2'>
+					Once a candidate is recruited, their details are automatically added
+					to the MAX Foundation, allowing recruiters to complete the joining
+					formalities without any hassle.
+				</div>
+				<div className='content-section-5-sub-content-3'>
+					<div>
+						[1] Gartner (2022) Survey Shows Poor Talent Strategy is the Top
+						Emerging Risk Worrying Organizations,
+					</div>
+					<div>
+						{" "}
+						https://www.gartner.com/en/newsroom/press-releases/2022-02-03-gartner-survey-shows-poor-talent-strategy-is-the-top-emerging-risk-worrying-organizations
+					</div>
+				</div>
 			</div>
 		</div>
 	);
