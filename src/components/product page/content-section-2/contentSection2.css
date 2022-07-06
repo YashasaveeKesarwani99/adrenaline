@@ -1,7 +1,7 @@
 /** @format */
 
 .content-section-2-container {
-	height: 140vh;
+	min-height: 140vh;
 	width: 100%;
 	background: url("../../../assets/images/content-section-2-backgroundAndContent.png")
 		no-repeat;
