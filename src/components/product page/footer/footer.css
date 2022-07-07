@@ -86,9 +86,10 @@
 }
 
 .footer-sub-content-1-form > div:nth-child(2) > div > input {
-	height: 25px;
+	height: 30px;
 	width: 100%;
 	padding: 5px;
+	padding-left: 10px;
 	border-radius: 6px;
 	border: #ffffff;
 }
@@ -100,8 +101,11 @@
 .footer-sub-content-1-form > div:nth-child(2) > div:nth-child(2) {
 	background-color: #2a3c98;
 	width: 10%;
-	height: 35px;
+	height: 40px;
 	border-radius: 6px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-sub-content-1-form > div:nth-child(2) > div > div {
@@ -244,9 +248,9 @@
 
 .footer-sub-content-2 > div:nth-child(2) > div:nth-child(5) {
 	display: flex;
-	width: 50%;
-	justify-content: flex-start;
-
+	width: 45%;
+	justify-content: space-between;
+	align-items: flex-start;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -260,9 +264,9 @@
 
 .footer-sub-content-2 > div:nth-child(2) > div:nth-child(6) {
 	display: flex;
-	width: 50%;
-	justify-content: flex-start;
-
+	width: 38%;
+	justify-content: space-between;
+	align-items: flex-start;
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 500;
@@ -289,6 +293,8 @@
 }
 
 .footer-sub-content-2 > div:nth-child(2) > div:nth-child(8) {
+	display: flex;
+	align-items: center;
 	width: 70%;
 	margin-left: 10px;
 	text-align: left;

@@ -6,6 +6,10 @@ import mail from "../../../assets/images/product-page-footer-image-1.png";
 import logos from "../../../assets/images/product-page-footer-image-2.png";
 import adrenaline from "../../../assets/icons/adrenailn.png";
 import socials from "../../../assets/images/product-page-footer-image-3.png";
+import mailIcon from "../../../assets/icons/product-page-footer-mail.png";
+import phone from "../../../assets/icons/product-page-footer-phone.png";
+import copyright from "../../../assets/icons/product-page-footer-copyright.png";
+import path from "../../../assets/icons/path.png";
 
 const Footer = () => {
 	return (
@@ -23,9 +27,11 @@ const Footer = () => {
 						</div>
 						<div>
 							<div>
-								<input />
+								<input placeholder='Email Address' />
 							</div>
-							<div></div>
+							<div>
+								<img src={path} alt='path' />
+							</div>
 						</div>
 					</div>
 				</div>
@@ -130,15 +136,33 @@ const Footer = () => {
 							<img src={socials} alt='socials' />
 						</div>
 						<div>
-							<div></div>
+							<div>
+								<img src={mailIcon} alt='mail' height={15} width={15} />
+							</div>
 							<div>info@myadrenalin.com</div>
 						</div>
 						<div>
-							<div></div>
+							<div>
+								<img src={phone} alt='phone' height={15} width={15} />
+							</div>
 							<div>+91 894 894 5665</div>
 						</div>
 						<div>Request for Demo</div>
-						<div> Copyrights 2022 myadrenalin.com</div>
+						<div>
+							{" "}
+							Copyrights 2022{"  "}
+							<span>
+								<img
+									src={copyright}
+									alt='copyright'
+									height={15}
+									width={15}
+									style={{ padding: "0 5px 0 5px" }}
+								/>
+							</span>
+							{"  "}
+							myadrenalin.com
+						</div>
 					</div>
 				</div>
 			</div>
